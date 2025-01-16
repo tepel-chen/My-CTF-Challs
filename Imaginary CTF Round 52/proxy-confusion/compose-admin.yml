@@ -1,0 +1,19 @@
+services:
+  deno:
+    build:
+      context: ./deno
+    environment:
+      - FLAG=ictf{fl45k_54y5_n0_bu7_d3n0_54y5_y35}
+  flask:
+    build:
+      context: ./flask
+  proxy:
+    build:
+      context: ./proxy
+    environment:
+      - FLASK_HOST=flask
+      - FLASK_PORT=4001
+      - DENO_HOST=deno
+      - DENO_PORT=4002
+    ports:
+      - 4000:4000

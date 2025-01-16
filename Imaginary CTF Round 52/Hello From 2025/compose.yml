@@ -1,0 +1,6 @@
+services:
+  app:
+    build: ./src
+    restart: unless-stopped
+    ports:
+      - 1337:1337
