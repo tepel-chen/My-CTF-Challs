@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "tau-prolog": "^0.3.4"
+  }
+}

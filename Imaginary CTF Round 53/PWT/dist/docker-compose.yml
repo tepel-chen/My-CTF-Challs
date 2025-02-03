@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  pwt:
+    build:
+      context: ./src
+      args:
+        - FLAG=ictf{fake_flag}
+    ports:
+      - 8000:8000
