@@ -35,6 +35,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Full Weak Engineer CTF 2025|[unixor](/Full%20Weak%20Engineer%20CTF%202025/unixor)|★★|
 
 ## Forensics
 
