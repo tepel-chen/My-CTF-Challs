@@ -29,6 +29,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Full Weak Engineer CTF 2025|[reeeeeee](/Full%20Weak%20Engineer%20CTF%202025/reeeeeee)|★★★|
 
 ## Crypto
 

