@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin | Shark Pet Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0d355e 0%, #63b0cd 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .navbar {
+            background: rgba(14, 57, 102, 0.95) !important;
+        }
+        .shop-title {
+            color: #fff;
+            text-shadow: 0 4px 16px rgba(0,40,80,0.15);
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        .shark-icon {
+            width: 42px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .admin-card {
+            max-width: 560px;
+            margin: 90px auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 40px rgba(20,40,80,0.15);
+            padding: 42px 38px 36px 38px;
+            text-align: center;
+        }
+        .flag-label {
+            color: #229ad3;
+            font-size: 1.25em;
+            font-weight: 600;
+        }
+        .flag-value {
+            background: #f0f8ff;
+            font-size: 1.12em;
+            font-family: 'Fira Mono', 'Consolas', 'Courier New', monospace;
+            padding: 10px 22px;
+            border-radius: 8px;
+            margin-top: 14px;
+            color: #17647e;
+            display: inline-block;
+        }
+        .admin-badge {
+            font-size: 1em;
+            color: #fff;
+            background: #229ad3;
+            border-radius: 8px;
+            padding: 5px 16px;
+            margin-bottom: 18px;
+            letter-spacing: 1px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm mb-4">
+        <div class="container">
+            <a class="navbar-brand shop-title" href="/">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f988.png" alt="Shark" class="shark-icon">
+                Shark Pet Shop
+            </a>
+            <div class="d-flex align-items-center">
+                <a href="/coupon" class="btn btn-info me-2 text-white">Enter Coupon</a>
+                {% if session.username %}
+                    <span class="text-light me-2">Hello, {{ session.username }}!</span>
+                    <a href="/logout" class="btn btn-outline-warning ms-1">Logout</a>
+                {% else %}
+                    <a href="/login" class="btn btn-outline-light ms-3">Login</a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+    
+    <div class="admin-card">
+        <div class="admin-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" style="width: 1.3em; vertical-align: -0.28em;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6l4 2m6-8v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2z" />
+            </svg>
+            ADMIN PANEL
+        </div>
+        <div class="flag-label">FLAG</div>
+        <div class="flag-value">{{ flag }}</div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

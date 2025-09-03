@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Shark Pet Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0d355e 0%, #63b0cd 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .navbar {
+            background: rgba(14, 57, 102, 0.95) !important;
+        }
+        .shop-title {
+            color: #fff;
+            text-shadow: 0 4px 16px rgba(0,40,80,0.15);
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        .shark-icon {
+            width: 42px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .login-card {
+            max-width: 420px;
+            margin: 70px auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 6px 32px rgba(20,40,80,0.14);
+            padding: 32px 28px 28px 28px;
+        }
+        .login-card h3 {
+            font-weight: 700;
+            color: #186fad;
+        }
+        .form-label {
+            font-weight: 500;
+        }
+        .btn-shark {
+            background: #229ad3;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 12px;
+            transition: 0.15s;
+        }
+        .btn-shark:hover {
+            background: #186fad;
+        }
+        .under-link {
+            color: #186fad;
+            text-decoration: underline;
+        }
+        .error-msg {
+            color: #d9534f;
+            font-weight: 500;
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm mb-4">
+        <div class="container">
+            <a class="navbar-brand shop-title" href="/">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f988.png" alt="Shark" class="shark-icon">
+                Shark Pet Shop
+            </a>
+        </div>
+    </nav>
+
+    <div class="login-card">
+        <h3 class="text-center mb-4">Login</h3>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="error-msg">
+                    {% for msg in messages %}
+                        {{ msg }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+        <form method="post" action="/login">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter username" required autofocus>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
+            </div>
+            <div class="d-grid mb-2">
+                <button type="submit" class="btn btn-shark">Login</button>
+            </div>
+            <div class="text-center">
+                <a class="under-link">Register</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

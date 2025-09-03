@@ -22,6 +22,9 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Full Weak Engineer CTF 2025|[64jail](/Full%20Weak%20Engineer%20CTF%202025/64jail)|★★★|
+|Full Weak Engineer CTF 2025|[quikku](/Full%20Weak%20Engineer%20CTF%202025/quikku)|★★★★|
+|Full Weak Engineer CTF 2025|[Future With Escape](/Full%20Weak%20Engineer%20CTF%202025/Future%20With%20Escape)|★★★★|
 |Imaginary CTF Round 53|[prolog-jail](/Imaginary%20CTF%20Round%2053/prolog-jail)|★★★★★|
 |Imaginary CTF Round 53|[PWT](/Imaginary%20CTF%20Round%2053/PWT)|★★★|
 
@@ -41,6 +44,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Full Weak Engineer CTF 2025|[Sharkshop](/Full%20Weak%20Engineer%20CTF%202025/Sharkshop)|★★★|
 
 
 ## Other CTF
