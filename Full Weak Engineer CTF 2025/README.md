@@ -13,3 +13,6 @@
 |Misc|[64jail](/Full%20Weak%20Engineer%20CTF%202025/64jail)|★★★|
 |Misc|[quikku](/Full%20Weak%20Engineer%20CTF%202025/quikku)|★★★★|
 |Misc|[Future With Escape](/Full%20Weak%20Engineer%20CTF%202025/Future%20With%20Escape)|★★★★|
+|Pwn|[Iconv Service](/Full%20Weak%20Engineer%20CTF%202025/Iconv%20Service)|★★★|
+|Pwn|[Future Without Escape](/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape)|★★★★|
+|Pwn|[Julia ni Jailbreak](/Full%20Weak%20Engineer%20CTF%202025/Julia%20ni%20Jailbreak)|★★★★|

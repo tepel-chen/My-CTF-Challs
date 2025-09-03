@@ -87,7 +87,7 @@ The next block is:
 
 Thus, this corresponds to: `(?=^([^c]|c(?=(t|0)))*$)`. In other words: "Whenever `c` appears in the string, it must be followed by either `t` or `0`."
 
-The remaining blocks follow a similar pattern. By reducing them to conditions like this, you can build a solver. While it’s possible to write a recursive function to handle this, in the solver [here](./solver) a Z3-based approach was used instead.
+The remaining blocks follow a similar pattern. By reducing them to conditions like this, you can build a solver. While it’s possible to write a recursive function to handle this, in the solver [here](./solver.py) a Z3-based approach was used instead.
 
 ## Flag
 
