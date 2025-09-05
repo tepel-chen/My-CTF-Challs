@@ -7,7 +7,7 @@ I heard my website isn't secure. I made it persistent by using a database so tha
 
 ## Writeup 
 
-For explaination on class pollution and depth check bypass, see [Personal Website](/Full Weak Engineer CTF 2025/Personal Website).
+For explaination on class pollution and depth check bypass, see [Personal Website](/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website).
 
 shelve serializes and deserializes user objects [using pickle](https://github.com/python/cpython/blob/v3.13.6/Lib/shelve.py#L114).
 Since pickle is powerful enough to allow RCE depending on how it is used, the next step is to investigate whether a class pollution gadget exists here.

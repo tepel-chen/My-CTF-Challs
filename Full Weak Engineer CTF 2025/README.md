@@ -1,6 +1,6 @@
 # Full Weak Engineer CTF 2025
 
-|Category|Name|Difficulty|
+|Category|Name|Difficulty|Co-author|
 |---|---|---|---|
 |Web|[Personal Website](/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website)|★★||
 |Web|[SotaFuji](/Full%20Weak%20Engineer%20CTF%202025/SotaFuji)|★★★||

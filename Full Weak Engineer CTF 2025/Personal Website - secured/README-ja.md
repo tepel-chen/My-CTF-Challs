@@ -6,7 +6,7 @@ I heard my website isn't secure. I made it persistent by using a database so tha
 
 ## Writeup
 
-Class Pollutionと深さ制限のバイパスについては[Personal Website](/Full Weak Engineer CTF 2025/Personal Website)をご覧下さい
+Class Pollutionと深さ制限のバイパスについては[Personal Website](/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website/README-ja.md)をご覧下さい
 
 shelveはユーザーオブジェクトを[pickleでシリアライズ・デシリアライズする](https://github.com/python/cpython/blob/v3.13.6/Lib/shelve.py#L114)。pickleは利用方法によってはRCEが可能なほど強力な仕組みであるため、ここにガジェットが無いかを探す。
 
