@@ -4,6 +4,10 @@
 
 There will be no exit
 
+## Author
+
+t-chen, ryhtbsh
+
 ## Writeup
 
 [このUAF](https://github.com/python/cpython/issues/126405)を利用する。
@@ -23,7 +27,7 @@ typedef struct _object {
 
 ## 謝辞
 
-pwnではない解法がないように、プレイテストをしてくださったoh_wordさんに感謝いたします。
+このチャレンジをプレイテストし、非pwn解法が存在しないことを検証してくださったoh_wordさんに感謝申し上げます。さらに、UAFバグの GitHub Issue を最初に作成したのも彼です。
 
 ## Flag
 

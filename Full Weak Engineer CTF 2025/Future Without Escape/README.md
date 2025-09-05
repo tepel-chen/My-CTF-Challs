@@ -4,6 +4,10 @@
 
 There will be no exit
 
+## Author
+
+t-chen, ryhtbsh
+
 ## Wrteup 
 
 We use [this UAF](https://github.com/python/cpython/issues/126405).
@@ -23,7 +27,7 @@ Since this Python build is PIE-enabled, the address of `plt.system` cannot be kn
 
 ## Special thanks
 
-Special thanks to oh_word for playtesting this challenge, and assured that this had no non-pwn solution.
+Special thanks to oh_word for playtesting this challenge, and for verifying that there was no non-pwn solution. Additionally, he was the one who originally opened the GitHub issue for the UAF bug.
 
 ## Flag
 

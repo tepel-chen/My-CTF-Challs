@@ -15,11 +15,11 @@
 
 ## Pwn
 
-|CTF|Name|Difficulty|
-|---|---|---|
-|Full Weak Engineer CTF 2025|[Iconv Service](/Full%20Weak%20Engineer%20CTF%202025/Iconv%20Service)|★★★|
-|Full Weak Engineer CTF 2025|[Future Without Escape](/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape)|★★★★|
-|Full Weak Engineer CTF 2025|[Julia ni Jailbreak](/Full%20Weak%20Engineer%20CTF%202025/Julia%20ni%20Jailbreak)|★★★★|
+|CTF|Name|Difficulty|Co-author|
+|---|---|---|---|
+|Full Weak Engineer CTF 2025|[Iconv Service](/Full%20Weak%20Engineer%20CTF%202025/Iconv%20Service)|★★★||
+|Full Weak Engineer CTF 2025|[Future Without Escape](/Full%20Weak%20Engineer%20CTF%202025/Future%20Without%20Escape)|★★★★|ryhtbsh|
+|Full Weak Engineer CTF 2025|[Julia ni Jailbreak](/Full%20Weak%20Engineer%20CTF%202025/Julia%20ni%20Jailbreak)|★★★★||
 
 ## Misc
 
