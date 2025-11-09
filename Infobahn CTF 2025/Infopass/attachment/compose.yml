@@ -1,0 +1,16 @@
+services:
+  bot:
+    build:
+      context: ./bot
+    ports:
+      - 1337:1337
+    environment:
+      - APP_URL=http://testapp:8080/
+      - FLAG=infobahn{fake_flag}
+  testapp:
+    build:
+      context: ./app
+    ports:
+      - 8080:8080
+    environment:
+      - SECRET_KEY=supersecretkey

@@ -4,6 +4,8 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Infobahn CTF 2025|[Infopass](/Infobahn%20CTF%202025/Infopass)|★★★|
+|Infobahn CTF 2025|[logo](/Infobahn%20CTF%202025/logo)|★★★★★|
 |Full Weak Engineer CTF 2025|[Personal Website](/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website)|★★|
 |Full Weak Engineer CTF 2025|[SotaFuji](/Full%20Weak%20Engineer%20CTF%202025/SotaFuji)|★★★|
 |Full Weak Engineer CTF 2025|[Weakness in the Middle](/Full%20Weak%20Engineer%20CTF%202025/Weakness%20in%20the%20Middle)|★★★|
@@ -25,6 +27,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Infobahn CTF 2025|[very safe pickle](/Infobahn%20CTF%202025/very%20safe%20pickle)|★★★|
 |Full Weak Engineer CTF 2025|[64jail](/Full%20Weak%20Engineer%20CTF%202025/64jail)|★★★|
 |Full Weak Engineer CTF 2025|[quikku](/Full%20Weak%20Engineer%20CTF%202025/quikku)|★★★★|
 |Full Weak Engineer CTF 2025|[Future With Escape](/Full%20Weak%20Engineer%20CTF%202025/Future%20With%20Escape)|★★★★|
@@ -35,6 +38,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Infobahn CTF 2025|[deno9](/Infobahn%20CTF%202025/deno9)|★★★★|
 |Full Weak Engineer CTF 2025|[reeeeeee](/Full%20Weak%20Engineer%20CTF%202025/reeeeeee)|★★★|
 
 ## Crypto
