@@ -1,11 +1,11 @@
 # t-chen's CTF Challenges
 
 ## CTFs
-[Daily AlpacaHack](/Daily%20AlpacaHack)
-[Infobahn CTF 2025](/Infobahn%20CTF%202025)
-[Full Weak Engineer CTF 2025](/Full%20Weak%20Engineer%20CTF%202025)
-[Imaginary CTF Round 53](/Imaginary%20CTF%20Round%2053)
-[Imaginary CTF Round 52](/Imaginary%20CTF%20Round%2052)
+* [Daily AlpacaHack](/Daily%20AlpacaHack)
+* [Infobahn CTF 2025](/Infobahn%20CTF%202025)
+* [Full Weak Engineer CTF 2025](/Full%20Weak%20Engineer%20CTF%202025)
+* [Imaginary CTF Round 53](/Imaginary%20CTF%20Round%2053)
+* [Imaginary CTF Round 52](/Imaginary%20CTF%20Round%2052)
 
 ## Web
 
