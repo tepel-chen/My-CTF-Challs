@@ -1,5 +1,7 @@
 # Full Weak Engineer CTF 2025
 
+[Original Repository](https://github.com/full-weak-engineer/FWE_CTF_2025_public)
+
 |Category|Name|Difficulty|Co-author|
 |---|---|---|---|
 |Web|[Personal Website](/Full%20Weak%20Engineer%20CTF%202025/Personal%20Website)|★★||
