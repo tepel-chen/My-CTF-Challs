@@ -46,6 +46,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[Useful Machine](/Daily%20AlpacaHack/Useful%20Machine)|★|
 |Infobahn CTF 2025|[deno9](/Infobahn%20CTF%202025/deno9)|★★★★|
 |Full Weak Engineer CTF 2025|[reeeeeee](/Full%20Weak%20Engineer%20CTF%202025/reeeeeee)|★★★|
 
