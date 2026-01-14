@@ -11,6 +11,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[I wanna be the Admin](/Daily%20AlpacaHack/I%20wanna%20be%20the%20Admin)|★|
 |Daily AlpacaHack|[Log Viewer](/Daily%20AlpacaHack/Log%20Viewer)|★|
 |Infobahn CTF 2025|[Infopass](/Infobahn%20CTF%202025/Infopass)|★★★|
 |Infobahn CTF 2025|[logo](/Infobahn%20CTF%202025/logo)|★★★★★|
