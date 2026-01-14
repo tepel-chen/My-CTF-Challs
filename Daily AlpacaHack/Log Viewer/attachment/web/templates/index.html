@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>View log</title>
+    <style>
+      body {
+        margin: 2rem;
+        background: #f5f5f5;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      h1 {
+        font-size: 1.4rem;
+        margin-top: 0;
+      }
+      form {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+        flex-wrap: wrap;
+      }
+      label {
+        flex: 1 1 auto;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 0.4rem 0.6rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      button {
+        padding: 0.4rem 0.9rem;
+        border-radius: 4px;
+        border: 1px solid #888;
+        background: #eee;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #e0e0e0;
+      }
+      .log-box {
+        margin-top: 1rem;
+      }
+      .log-box h2 {
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
+      }
+      pre {
+        background: #111;
+        color: #eee;
+        padding: 0.8rem;
+        border-radius: 4px;
+        overflow-x: auto;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 0.85rem;
+        margin: 0;
+        white-space: pre;
+      }
+      .no-result {
+        font-size: 0.9rem;
+        color: #777;
+        margin-top: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Access Log Viewer</h1>
+
+      <form method="POST" action="/">
+        <label>
+          Query:
+          <input type="text" name="query" value="{{ query }}" placeholder="404">
+        </label>
+        <button type="submit">Filter</button>
+      </form>
+
+      {% if log is not none %}
+        <div class="log-box">
+          <h2>Result</h2>
+          {% if log.strip() %}
+            <pre>{{ log }}</pre>
+          {% else %}
+            <div class="no-result">(no matches)</div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </body>
+</html>
