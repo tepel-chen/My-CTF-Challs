@@ -1,5 +1,7 @@
 # Useful Machine
 
+[English version](./README.md)
+
 ## 問題文
 
 このマシン、めっちゃ便利〜〜！

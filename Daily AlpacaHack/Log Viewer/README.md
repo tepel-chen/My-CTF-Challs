@@ -1,6 +1,8 @@
 
 # Log Viewer
 
+[日本語はこちら](./README-ja.md)
+
 ## Description
 
 Simple log viewer with regex feature.

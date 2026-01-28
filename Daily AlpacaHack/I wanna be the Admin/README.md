@@ -1,6 +1,8 @@
 
 # I wanna be the Admin
 
+[日本語はこちら](./README-ja.md)
+
 ## Description
 
 But you start from a guest!

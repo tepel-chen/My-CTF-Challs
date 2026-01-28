@@ -1,5 +1,7 @@
 # Log Viewer
 
+[English version](./README.md)
+
 ## 問題文
 
 正規表現機能を備えたシンプルなログビューア。

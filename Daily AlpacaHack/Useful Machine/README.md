@@ -1,6 +1,8 @@
 
 # Useful Machine
 
+[日本語はこちら](./README-ja.md)
+
 ## Description
 
 This machine is very VERY useful!

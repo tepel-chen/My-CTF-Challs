@@ -1,5 +1,7 @@
 # I wanna be the Admin
 
+[English version](./README.md)
+
 ## 問題文
 
 でもguestから始めよう!
