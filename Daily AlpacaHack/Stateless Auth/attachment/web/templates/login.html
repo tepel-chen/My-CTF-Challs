@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="/static/main.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Login</h1>
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+  <form class="login-form" method="post" action="/login">
+    <input name="username" placeholder="username">
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
