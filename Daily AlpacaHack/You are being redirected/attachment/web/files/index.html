@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirect Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    :root {
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+    }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    main {
+      width: min(36rem, 100%);
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(18px);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      border-radius: 1.5rem;
+      padding: 2rem;
+      box-shadow: 0 20px 50px rgba(15, 23, 42, 0.65);
+    }
+    h1 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+    }
+    label {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 0.95rem;
+      color: #94a3b8;
+    }
+    input[type=text] {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      font-size: 1rem;
+      border-radius: 0.85rem;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      background: rgba(15, 23, 42, 0.75);
+      color: #f8fafc;
+    }
+    button {
+      margin-top: 1rem;
+      width: 100%;
+      padding: 0.9rem;
+      border-radius: 0.85rem;
+      border: none;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0f172a;
+      background: linear-gradient(135deg, #f97316, #facc15);
+      cursor: pointer;
+    }
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .hint {
+      margin-top: 1.25rem;
+      font-size: 0.9rem;
+      color: #cbd5f5;
+    }
+    #link-preview {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 0.85rem;
+      border: 1px dashed rgba(148, 163, 184, 0.6);
+      font-size: 0.95rem;
+      word-break: break-all;
+      background: rgba(15, 23, 42, 0.5);
+    }
+    a.preview-link {
+      color: #fbbf24;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Redirect URL maker</h1>
+    <p class="hint">Enter the URL you want to visit and the page will build a redirect link that points to <code>redirect.html?to=...</code>.</p>
+    <form id="maker">
+      <label for="target">Destination URL</label>
+      <input type="text" id="target" name="target" placeholder="https://example.com" required>
+      <button type="submit">Create redirect link</button>
+    </form>
+    <div id="link-preview" aria-live="polite"></div>
+  </main>
+  <script>
+    const form = document.getElementById('maker');
+    const input = document.getElementById('target');
+    const preview = document.getElementById('link-preview');
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const value = input.value.trim();
+      const encoded = encodeURIComponent(value);
+      const redirectUrl = `/redirect?to=${encoded}`;
+      
+      const link = document.createElement("a");
+      link.classList.add("preview-link");
+      link.href = redirectUrl;
+      link.innerText = redirectUrl;
+      preview.innerHTML = "";
+      preview.appendChild(link);
+      link.focus();
+    });
+  </script>
+</body>
+</html>

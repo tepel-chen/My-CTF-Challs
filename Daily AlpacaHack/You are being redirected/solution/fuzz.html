@@ -1,0 +1,22 @@
+<script>
+// 置き換わるパターン
+for(let i = 0; i < 0xFFFF /* UTF-16の最大値 */; i++) {
+    const dest = `jav${String.fromCharCode(i)}script:alert(1)`;
+    if(dest.toLowerCase().includes("javascript")) {
+        continue;
+    }
+    const after = new URL(dest, window.location.href).href;
+    if(after.startsWith("javascript:")) console.log("replace", i, JSON.stringify(String.fromCharCode(i)));
+}
+
+// 取り除かれるパターン
+for(let i = 0; i < 0xFFFF /* UTF-16の最大値 */; i++) {
+    const dest = `java${String.fromCharCode(i)}script:alert(1)`;
+    if(dest.toLowerCase().includes("javascript")) {
+        continue;
+    }
+    const after = new URL(dest, window.location.href).href;
+    if(after.startsWith("javascript:")) console.log("remove", i, JSON.stringify(String.fromCharCode(i)));
+
+}
+</script>

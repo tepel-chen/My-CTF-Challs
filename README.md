@@ -11,6 +11,9 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[You are being redirected](/Daily%20AlpacaHack/You%20are%20being%20redirected)|★|
+|Daily AlpacaHack|[Plz Login](/Daily%20AlpacaHack/Plz%20Login)|★|
+|Daily AlpacaHack|[Magic Engine](/Daily%20AlpacaHack/Magic%20Engine)|★|
 |Daily AlpacaHack|[No JS](/Daily%20AlpacaHack/No%20JS)|★|
 |Daily AlpacaHack|[Stateless Auth](/Daily%20AlpacaHack/Stateless%20Auth)|★|
 |Daily AlpacaHack|[I wanna be the Admin](/Daily%20AlpacaHack/I%20wanna%20be%20the%20Admin)|★|
