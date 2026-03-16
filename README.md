@@ -11,6 +11,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[Alpaca Rangers](/Daily%20AlpacaHack/Alpaca%20Rangers)|★|
 |Daily AlpacaHack|[You are being redirected](/Daily%20AlpacaHack/You%20are%20being%20redirected)|★|
 |Daily AlpacaHack|[Plz Login](/Daily%20AlpacaHack/Plz%20Login)|★|
 |Daily AlpacaHack|[Magic Engine](/Daily%20AlpacaHack/Magic%20Engine)|★|

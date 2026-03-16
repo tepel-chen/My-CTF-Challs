@@ -1,0 +1,8 @@
+services:
+  web:
+    build:
+      context: ./web
+    restart: unless-stopped
+    init: true
+    ports:
+      - ${PORT:-3000}:80

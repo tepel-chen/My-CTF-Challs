@@ -2,6 +2,7 @@
 
 |Category|Name|Website|
 |---|---|---|
+|Web|[Alpaca Rangers](/Daily%20AlpacaHack/Alpaca%20Rangers)|[Link](https://alpacahack.com/daily/challenges/alpaca-rangers)|
 |Web|[You are being redirected](/Daily%20AlpacaHack/You%20are%20being%20redirected)|[Link](https://alpacahack.com/daily/challenges/you-are-being-redirected)|
 |Web|[Plz Login](/Daily%20AlpacaHack/Plz%20Login)|[Link](https://alpacahack.com/daily/challenges/plz-login)|
 |Web|[Magic Engine](/Daily%20AlpacaHack/Magic%20Engine)|[Link](https://alpacahack.com/daily/challenges/magic-engine)|

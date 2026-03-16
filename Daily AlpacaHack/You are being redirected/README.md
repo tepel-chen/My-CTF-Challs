@@ -2,7 +2,7 @@
 
 [日本語版はこちら](./README-ja.md)
 
-## Problem
+## Description
 
 You don't want the browser to go to external websites without warning, do you?
 
