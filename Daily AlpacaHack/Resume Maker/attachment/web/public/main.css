@@ -1,0 +1,131 @@
+:root {
+    --bg: #f6f2ea;
+    --ink: #1e1a16;
+    --muted: #6d6259;
+    --accent: #c04f2a;
+    --card: #fffaf2;
+    --line: #e6d9c9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "IBM Plex Serif", "Georgia", "Times New Roman", serif;
+    color: var(--ink);
+    background:
+        radial-gradient(1200px 600px at 10% -10%, #f7d7b0 0%, transparent 60%),
+        radial-gradient(900px 500px at 90% 0%, #f1c2a0 0%, transparent 55%),
+        var(--bg);
+    min-height: 100vh;
+}
+
+main {
+    max-width: 780px;
+    margin: 48px auto 80px;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+header img {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    border: 2px solid var(--line);
+    background: #fff;
+    padding: 6px;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    margin: 0 0 6px;
+}
+
+h2 {
+    margin: 28px 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent);
+}
+
+p {
+    line-height: 1.7;
+    margin: 0 0 12px;
+}
+
+form {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 18px 40px rgba(25, 18, 10, 0.12);
+}
+
+label {
+    display: grid;
+    gap: 8px;
+    font-weight: 600;
+    color: var(--muted);
+}
+
+input,
+textarea,
+select {
+    font: inherit;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 16px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(192, 79, 42, 0.35);
+}
+
+button:hover {
+    filter: brightness(0.95);
+}
+
+pre {
+    background: #f2e8dc;
+    border: 1px dashed var(--line);
+    padding: 16px;
+    border-radius: 12px;
+    overflow-x: auto;
+    font-size: 13px;
+}
+
+@media (max-width: 640px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
