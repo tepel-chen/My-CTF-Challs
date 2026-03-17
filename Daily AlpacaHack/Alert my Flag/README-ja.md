@@ -2,7 +2,7 @@
 
 [English](./README.md)
 
-## 説明
+## 問題文
 
 `alert(flag)`が実行できたら勝ち！
 

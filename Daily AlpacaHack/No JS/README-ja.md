@@ -2,11 +2,11 @@
 
 [English version](./README.md)
 
-## 説明
+## 問題文
 
 Javascriptなしでもフラグを取得できますか？
 
-## 解説
+## Writeup
 
 ### 概要
 

@@ -2,7 +2,7 @@
 
 [English version](./README.md)
 
-## 説明
+## 問題文
 
 正義のヒーロー、アルパカレンジャー！
 
