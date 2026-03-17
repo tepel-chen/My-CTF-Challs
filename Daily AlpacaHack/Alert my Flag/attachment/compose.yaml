@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: ./web
+    restart: unless-stopped
+    init: true
+    environment:
+      - PORT=3000
+      - FLAG=Alpaca{n0w_c4n_U_send_fl4g_t0_ur_s3rver_d1rectly?}
+    ports:
+      - ${PORT:-3000}:3000

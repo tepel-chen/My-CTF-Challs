@@ -11,6 +11,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[Alert my Flag](/Daily%20AlpacaHack/Alert%20my%20Flag)|★|
 |Daily AlpacaHack|[Resume Maker](/Daily%20AlpacaHack/Resume%20Maker)|★★|
 |Daily AlpacaHack|[Rock Paper Scissors Lizard Spock](/Daily%20AlpacaHack/Rock%20Paper%20Scissors%20Lizard%20Spock)|★|
 |Daily AlpacaHack|[Alpaca Rangers](/Daily%20AlpacaHack/Alpaca%20Rangers)|★|
