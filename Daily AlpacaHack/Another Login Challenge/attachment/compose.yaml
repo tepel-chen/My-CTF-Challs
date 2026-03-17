@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./web
+    restart: unless-stopped
+    init: true
+    ports:
+      - ${PORT:-3000}:3000
+    environment:
+      - FLAG=Alpaca{Javascr1pt_is_a_st4nge_languag3...}
