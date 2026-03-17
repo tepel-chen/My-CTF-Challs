@@ -2,6 +2,7 @@
 
 |Category|Name|Website|
 |---|---|---|
+|Web|[Rock Paper Scissors Lizard Spock](/Daily%20AlpacaHack/Rock%20Paper%20Scissors%20Lizard%20Spock)|[Link](https://alpacahack.com/daily/challenges/rock-paper-scissors-lizard-spock)|
 |Web|[Alpaca Rangers](/Daily%20AlpacaHack/Alpaca%20Rangers)|[Link](https://alpacahack.com/daily/challenges/alpaca-rangers)|
 |Web|[You are being redirected](/Daily%20AlpacaHack/You%20are%20being%20redirected)|[Link](https://alpacahack.com/daily/challenges/you-are-being-redirected)|
 |Web|[Plz Login](/Daily%20AlpacaHack/Plz%20Login)|[Link](https://alpacahack.com/daily/challenges/plz-login)|
