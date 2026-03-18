@@ -2,7 +2,7 @@
 
 [English](./README.md)
 
-## 説明
+## 問題文
 
 https://www.youtube.com/watch?v=jnfz_9d9BUA
 

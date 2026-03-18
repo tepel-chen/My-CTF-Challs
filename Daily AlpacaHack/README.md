@@ -2,6 +2,7 @@
 
 |Category|Name|Website|
 |---|---|---|
+|Web|[Free Coupon](/Daily%20AlpacaHack/Free%20Coupon)|[Link](https://alpacahack.com/daily/challenges/free-coupon)|
 |Web|[Another Login Challenge](/Daily%20AlpacaHack/Another%20Login%20Challenge)|[Link](https://alpacahack.com/daily/challenges/another-login-challenge)|
 |Web|[Alert my Flag](/Daily%20AlpacaHack/Alert%20my%20Flag)|[Link](https://alpacahack.com/daily/challenges/alert-my-flag)|
 |Web|[Resume Maker](/Daily%20AlpacaHack/Resume%20Maker)|[Link](https://alpacahack.com/daily-bside/challenges/resume-maker)|
