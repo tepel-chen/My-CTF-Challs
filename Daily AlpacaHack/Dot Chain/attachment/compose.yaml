@@ -1,0 +1,8 @@
+services:
+  sandbox:
+    build: .
+    restart: unless-stopped
+    ports:
+      - ${PORT:-1337}:1337
+    environment:
+      - FLAG=Alpaca{j4il.is.n0t.just.a.puzzl3}

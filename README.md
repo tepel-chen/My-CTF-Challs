@@ -11,6 +11,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[What's Next](/Daily%20AlpacaHack/What's%20Next)|★|
 |Daily AlpacaHack|[Free Coupon](/Daily%20AlpacaHack/Free%20Coupon)|★|
 |Daily AlpacaHack|[Another Login Challenge](/Daily%20AlpacaHack/Another%20Login%20Challenge)|★|
 |Daily AlpacaHack|[Alert my Flag](/Daily%20AlpacaHack/Alert%20my%20Flag)|★|
@@ -47,6 +48,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[Dot Chain](/Daily%20AlpacaHack/Dot%20Chain)|★|
 |Infobahn CTF 2025|[very safe pickle](/Infobahn%20CTF%202025/very%20safe%20pickle)|★★★|
 |Full Weak Engineer CTF 2025|[64jail](/Full%20Weak%20Engineer%20CTF%202025/64jail)|★★★|
 |Full Weak Engineer CTF 2025|[quikku](/Full%20Weak%20Engineer%20CTF%202025/quikku)|★★★★|
