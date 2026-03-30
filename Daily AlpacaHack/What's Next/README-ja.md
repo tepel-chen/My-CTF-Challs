@@ -28,7 +28,7 @@ Next.js、大好き！
 
 広く使われているフレームワークやライブラリを使ったCTF問題では、GoogleやGitHubで似た報告を探してみる価値があります。この問題では、[このディスカッション](https://github.com/vercel/next.js/discussions/61755)がまさに同じ問題を扱っています。
 
-> でも、あなたのヒントのおかげで、どこに全ページの一覧があるのか分かりました: `_next/static/HASH_0123456789_HASH/_buildManifest.js`
+> But thanks to your hint I found where all pages are listed: `_next/static/HASH_0123456789_HASH/_buildManifest.js`
 
 
 ## フラグ
