@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: web
+    environment:
+      - FLAG=Alpaca{wh1ch_i5_worse?rand0mized_path_0r_pag3s_rout3r?}
+    ports:
+      - ${PORT:-3000}:3000
+    restart: unless-stopped
