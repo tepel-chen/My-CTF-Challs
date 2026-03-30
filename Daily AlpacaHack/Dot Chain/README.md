@@ -1,4 +1,4 @@
-# You are being redirected
+# Dot Chain
 
 [日本語版はこちら](./README-ja.md)
 

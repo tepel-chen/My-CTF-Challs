@@ -31,7 +31,7 @@ rl.question("> ")
 
 ### 解法 1: Tagged template を使う
 
-まだ解法はまだ自明ではありません。特に `()` を使って関数呼び出しができないことがボトルネットとなっています。
+まだ解法はまだ自明ではありません。特に `()` を使って関数呼び出しができないことがボトルネックとなっています。
 
 しかし、[tagged templates](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Template_literals#タグ付きテンプレート) の仕組みを利用し、`` ` `` を使うことで関数を呼び出せます。
 
