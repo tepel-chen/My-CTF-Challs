@@ -11,6 +11,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[Tar Uploader](/Daily%20AlpacaHack/Tar%20Uploader)|★|
 |Daily AlpacaHack|[What's Next](/Daily%20AlpacaHack/What's%20Next)|★|
 |Daily AlpacaHack|[Free Coupon](/Daily%20AlpacaHack/Free%20Coupon)|★|
 |Daily AlpacaHack|[Another Login Challenge](/Daily%20AlpacaHack/Another%20Login%20Challenge)|★|

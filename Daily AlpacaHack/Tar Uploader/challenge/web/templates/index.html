@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload TAR</title>
+  </head>
+  <body>
+    <h1>Upload TAR</h1>
+    {% if error %}
+    <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    {% if success %}
+    <p>{{ success }}</p>
+    {% endif %}
+    <p>You can upload a TAR file and extract its contents.</p>
+    <ol>
+      <li>
+        Create a TAR file. For example:
+        <pre><code>echo "Hello world" > hello.txt
+tar cvf test.tar hello.txt</code></pre>
+      </li>
+      <li>Upload it to this site. You will receive a UUID. (For example: <code>fe8fd755-f1d3-4648-af91-032b6ff1e011</code>)</li>
+      <li>You can access the extracted files at <code>/static/&lt;UUID&gt;/&lt;file name&gt;</code> (for example, <code>/static/fe8fd755-f1d3-4648-af91-032b6ff1e011/hello.txt</code>).</li>
+    </ol>
+    <p>TAR ファイルをアップロードして、その内容を展開できます。</p>
+    <ol>
+      <li>
+        TAR ファイルを作成します。たとえば:
+        <pre><code>echo "Hello world" > hello.txt
+tar cvf test.tar hello.txt</code></pre>
+      </li>
+      <li>このサイトにアップロードすると、UUID が発行されます。(例: <code>fe8fd755-f1d3-4648-af91-032b6ff1e011</code>)</li>
+      <li>展開されたファイルは <code>/static/&lt;UUID&gt;/&lt;ファイル名&gt;</code> からアクセスできます(例: <code>/static/fe8fd755-f1d3-4648-af91-032b6ff1e011/hello.txt</code>)。</li>
+    </ol>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".tar" required>
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>
