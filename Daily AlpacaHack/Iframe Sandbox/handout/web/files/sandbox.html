@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandbox Content</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 16px;
+      font-family: sans-serif;
+      background: #fff;
+    }
+
+    #app {
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Waiting for HTML...</div>
+
+  <script>
+    const app = document.getElementById("app");
+
+    window.addEventListener("message", (event) => {
+      if (event.source !== window.parent || !event.origin.includes(location.hostname)) {
+        return;
+      }
+
+      const data = event.data;
+      if (!data || data.type !== "render-html") {
+        return;
+      }
+
+      app.innerHTML = data.html;
+    });
+  </script>
+</body>
+</html>

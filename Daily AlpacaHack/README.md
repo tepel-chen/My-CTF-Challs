@@ -8,7 +8,6 @@
 |Web|[Free Coupon](/Daily%20AlpacaHack/Free%20Coupon)|[Link](https://alpacahack.com/daily/challenges/free-coupon)|
 |Web|[Another Login Challenge](/Daily%20AlpacaHack/Another%20Login%20Challenge)|[Link](https://alpacahack.com/daily/challenges/another-login-challenge)|
 |Web|[Alert my Flag](/Daily%20AlpacaHack/Alert%20my%20Flag)|[Link](https://alpacahack.com/daily/challenges/alert-my-flag)|
-|Web|[Resume Maker](/Daily%20AlpacaHack/Resume%20Maker)|[Link](https://alpacahack.com/daily-bside/challenges/resume-maker)|
 |Web|[Rock Paper Scissors Lizard Spock](/Daily%20AlpacaHack/Rock%20Paper%20Scissors%20Lizard%20Spock)|[Link](https://alpacahack.com/daily/challenges/rock-paper-scissors-lizard-spock)|
 |Web|[Alpaca Rangers](/Daily%20AlpacaHack/Alpaca%20Rangers)|[Link](https://alpacahack.com/daily/challenges/alpaca-rangers)|
 |Web|[You are being redirected](/Daily%20AlpacaHack/You%20are%20being%20redirected)|[Link](https://alpacahack.com/daily/challenges/you-are-being-redirected)|
@@ -19,3 +18,15 @@
 |Web|[I wanna be the Admin](/Daily%20AlpacaHack/I%20wanna%20be%20the%20Admin)|[Link](https://alpacahack.com/daily/challenges/i-wanna-be-the-admin)|
 |Rev|[Useful Machine](/Daily%20AlpacaHack/Useful%20Machine)|[Link](https://alpacahack.com/daily/challenges/useful-machine)|
 |Web|[Log Viewer](/Daily%20AlpacaHack/Log%20Viewer)|[Link](https://alpacahack.com/daily/challenges/log-viewer)|
+
+
+## B-Side
+
+|Category|Name|Website|
+|---|---|---|
+|Misc|[YAuth](/Daily%20AlpacaHack/YAuth)|[Link](https://alpacahack.com/daily-bside/challenges/y-auth)|
+|Web|[TODO List](/Daily%20AlpacaHack/TODO%20List)|[Link](https://alpacahack.com/daily-bside/challenges/todo-list)|
+|Web|[Iframe Sandbox](/Daily%20AlpacaHack/Iframe%20Sandbox)|[Link](https://alpacahack.com/daily-bside/challenges/iframe-sandbox)|
+|Web|[Bulk Note](/Daily%20AlpacaHack/Bulk%20Note)|[Link](https://alpacahack.com/daily-bside/challenges/bulk-note)|
+|Web|[Resume Maker](/Daily%20AlpacaHack/Resume%20Maker)|[Link](https://alpacahack.com/daily-bside/challenges/resume-maker)|
+

@@ -11,12 +11,15 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack B-Side|[TODO List](/Daily%20AlpacaHack/TODO%20List)|★★|
+|Daily AlpacaHack B-Side|[Iframe Sandbox](/Daily%20AlpacaHack/Iframe%20Sandbox)|★★|
+|Daily AlpacaHack B-Side|[Bulk Note](/Daily%20AlpacaHack/Bulk%20Note)|★★|
 |Daily AlpacaHack|[Tar Uploader](/Daily%20AlpacaHack/Tar%20Uploader)|★|
 |Daily AlpacaHack|[What's Next](/Daily%20AlpacaHack/What's%20Next)|★|
 |Daily AlpacaHack|[Free Coupon](/Daily%20AlpacaHack/Free%20Coupon)|★|
 |Daily AlpacaHack|[Another Login Challenge](/Daily%20AlpacaHack/Another%20Login%20Challenge)|★|
 |Daily AlpacaHack|[Alert my Flag](/Daily%20AlpacaHack/Alert%20my%20Flag)|★|
-|Daily AlpacaHack|[Resume Maker](/Daily%20AlpacaHack/Resume%20Maker)|★★|
+|Daily AlpacaHack B-Side|[Resume Maker](/Daily%20AlpacaHack/Resume%20Maker)|★★|
 |Daily AlpacaHack|[Rock Paper Scissors Lizard Spock](/Daily%20AlpacaHack/Rock%20Paper%20Scissors%20Lizard%20Spock)|★|
 |Daily AlpacaHack|[Alpaca Rangers](/Daily%20AlpacaHack/Alpaca%20Rangers)|★|
 |Daily AlpacaHack|[You are being redirected](/Daily%20AlpacaHack/You%20are%20being%20redirected)|★|
@@ -49,6 +52,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack B-Side|[YAuth](/Daily%20AlpacaHack/YAuth)|★★|
 |Daily AlpacaHack|[Dot Chain](/Daily%20AlpacaHack/Dot%20Chain)|★|
 |Infobahn CTF 2025|[very safe pickle](/Infobahn%20CTF%202025/very%20safe%20pickle)|★★★|
 |Full Weak Engineer CTF 2025|[64jail](/Full%20Weak%20Engineer%20CTF%202025/64jail)|★★★|

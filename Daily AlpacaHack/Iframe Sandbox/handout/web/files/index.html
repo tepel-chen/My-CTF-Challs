@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sandbox Renderer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #f5f5f5;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 240px;
+      padding: 12px;
+      box-sizing: border-box;
+      font: 14px/1.5 monospace;
+      resize: vertical;
+    }
+
+    button {
+      width: fit-content;
+      padding: 10px 16px;
+      font: inherit;
+      cursor: pointer;
+    }
+
+    iframe {
+      width: 100%;
+      min-height: 320px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Sandbox HTML Renderer</h1>
+    <textarea id="html-input"><h2>Hello</h2>
+<p>This HTML is rendered inside the sandboxed iframe.</p></textarea>
+    <button id="render-button" type="button">Render</button>
+    <iframe
+      id="sandbox-frame"
+      src="/sandbox"
+      sandbox="allow-scripts"
+      title="Sandbox preview"
+    ></iframe>
+  </main>
+
+  <script>
+    const input = document.getElementById("html-input");
+    const button = document.getElementById("render-button");
+    const frame = document.getElementById("sandbox-frame");
+
+    function render() {
+      frame.contentWindow.postMessage(
+        {
+          type: "render-html",
+          html: input.value
+        },
+        "*"
+      );
+    }
+
+    button.addEventListener("click", render);
+    frame.addEventListener("load", render, { once: true });
+  </script>
+</body>
+</html>

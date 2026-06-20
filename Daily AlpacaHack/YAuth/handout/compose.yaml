@@ -1,0 +1,8 @@
+services:
+  challenge:
+    build: .
+    restart: unless-stopped
+    ports:
+      - ${PORT:-1337}:1337
+    environment:
+      - FLAG=Alpaca{Y4ML_is_to0_compl3x_7o_implemen7_pr0perly_:(}
