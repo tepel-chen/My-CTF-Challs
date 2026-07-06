@@ -1,0 +1,17 @@
+services:
+  web:
+    build:
+      context: ./web
+    ports:
+      - ${PORT_WEB:-3000}:80
+    restart: unless-stopped
+    init: true
+  bot:
+    build: ./bot
+    restart: unless-stopped
+    init: true
+    environment:
+      - APP_URL=http://web/
+      - FLAG=Alpaca{http0nly_cook1e_is_m3rely_a_m1tigation}
+    ports:
+      - ${PORT_BOT:-1337}:1337

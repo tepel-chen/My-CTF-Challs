@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Report to Admin Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>:root{color-scheme:dark;color:#eee}body{margin:0;background:#111;font-family:sans-serif}main{width:min(100% - 32px,960px);margin:0 auto;padding:48px 0}h1{text-align:center}form{display:flex}.prefix,input,button{padding:10px 12px;border:1px solid #456;font:inherit}.prefix{border-radius:6px 0 0 6px;background:#123;white-space:nowrap}input{min-width:0;flex:1;background:#111}button{border-radius:0 6px 6px 0;background:#26e;color:#fff;cursor:pointer}</style>
+  </head>
+  <body>
+    <main>
+      <h1>Report to Admin Bot</h1>
+      <form id="form">
+        <span class="prefix"><%- APP_URL %></span>
+        <input type="text" placeholder="?func=ping" id="path" />
+        <button type="submit" id="report">Report</button>
+      </form>
+      <p id="response"></p>
+    </main>
+    <script>
+      const $response = document.getElementById("response");
+      const $path = document.getElementById("path");
+      const $report = document.getElementById("report");
+
+      document.getElementById("form").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const path = $path.value;
+
+        try {
+          $path.disabled = true;
+          $report.disabled = true;
+          $response.textContent = "Response from bot: " + await(await fetch("/api/report", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ path }),
+          })).text();
+        } finally {
+          $path.disabled = false;
+          $report.disabled = false;
+        }
+      });
+    </script>
+  </body>
+</html>
