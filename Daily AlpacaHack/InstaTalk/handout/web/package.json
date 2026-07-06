@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "isomorphic-dompurify": "^3.15.0"
+  },
+  "scripts": {
+    "start": "node src/app.ts"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/express": "5.0.6"
+  }
+}

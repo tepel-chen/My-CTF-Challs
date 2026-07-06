@@ -24,6 +24,7 @@
 
 |Category|Name|Website|
 |---|---|---|
+|Web|[InstaTalk](/Daily%20AlpacaHack/InstaTalk)|[Link](https://alpacahack.com/daily-bside/challenges/instatalk)|
 |Misc|[YAuth](/Daily%20AlpacaHack/YAuth)|[Link](https://alpacahack.com/daily-bside/challenges/y-auth)|
 |Web|[TODO List](/Daily%20AlpacaHack/TODO%20List)|[Link](https://alpacahack.com/daily-bside/challenges/todo-list)|
 |Web|[Iframe Sandbox](/Daily%20AlpacaHack/Iframe%20Sandbox)|[Link](https://alpacahack.com/daily-bside/challenges/iframe-sandbox)|

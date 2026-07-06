@@ -54,7 +54,7 @@ As you can see, it doesn't check for line breaks. This means that if you seriali
 it will be written as:
 
 ```yaml
-
+<LF>
 foo: bar
 ```
 

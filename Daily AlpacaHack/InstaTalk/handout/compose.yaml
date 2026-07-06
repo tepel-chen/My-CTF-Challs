@@ -1,0 +1,18 @@
+services:
+  web:
+    build:
+      context: ./web
+    ports:
+      - ${PORT_WEB:-3000}:3000
+    restart: unless-stopped
+    init: true
+
+  bot:
+    build: ./bot
+    restart: unless-stopped
+    init: true
+    environment:
+      - APP_URL=http://web:3000/
+      - FLAG=Alpaca{y0uve_g0t_4_m3ssage_fr0m_alpac4}
+    ports:
+      - ${PORT_BOT:-1337}:1337

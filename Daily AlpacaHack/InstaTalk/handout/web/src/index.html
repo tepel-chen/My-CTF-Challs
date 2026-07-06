@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InstaTalk</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="box">
+          <div class="block">
+            <h1 class="title is-3">Messages</h1>
+            <p id="my-uuid" class="tag is-info is-light"></p>
+          </div>
+
+          <div class="block">
+            <ul id="messages" class="content"></ul>
+          </div>
+
+          <form id="send-form">
+            <div class="field">
+              <label class="label" for="message">Message</label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="text"
+                  name="message"
+                  id="message"
+                  placeholder="Type a message"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="to">Send To</label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="text"
+                  name="to"
+                  id="to"
+                  placeholder="Recipient UUID"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="control">
+                <button class="button is-link" type="submit">Send</button>
+              </div>
+            </div>
+          </form>
+
+          <p id="error" class="notification is-danger is-light mt-4" hidden></p>
+        </div>
+      </div>
+    </section>
+    <script>
+      addEventListener("load", async () => {
+        const $error = document.getElementById("error");
+        const $messages = document.getElementById("messages");
+        let myUuid;
+
+        const eventSource = new EventSource("/api/events");
+        eventSource.addEventListener("start", (event) => {
+          try {
+            myUuid = event.data;
+            document.getElementById("my-uuid").textContent =
+              `My UUID: ${myUuid}`;
+          } catch (error) {
+            $error.hidden = false;
+            $error.textContent = error;
+          }
+        });
+
+        eventSource.addEventListener("message", (event) => {
+          try {
+            $messages.innerHTML += event.data;
+          } catch (error) {
+            $error.hidden = false;
+            $error.textContent = error;
+          }
+        });
+
+        document
+          .getElementById("send-form")
+          .addEventListener("submit", async (event) => {
+            event.preventDefault();
+
+            const message = event.target.message.value;
+            const to = event.target.to.value;
+
+            const response = await fetch("/api/send-message", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ message, to, from: myUuid }),
+            });
+            if (response.status !== 200) {
+              $error.hidden = false;
+              $error.textContent =
+                (await response.json())["error"] ?? "Failed to send message";
+            }
+
+            event.target.message.value = "";
+          });
+      });
+    </script>
+  </body>
+</html>
