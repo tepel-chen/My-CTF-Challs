@@ -11,6 +11,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[Lucky Redirect](/Daily%20AlpacaHack/Lucky%20Redirect)|★|
 |Daily AlpacaHack B-Side|[InstaTalk](/Daily%20AlpacaHack/InstaTalk)|★★★|
 |Daily AlpacaHack B-Side|[TODO List](/Daily%20AlpacaHack/TODO%20List)|★★|
 |Daily AlpacaHack B-Side|[Iframe Sandbox](/Daily%20AlpacaHack/Iframe%20Sandbox)|★★|

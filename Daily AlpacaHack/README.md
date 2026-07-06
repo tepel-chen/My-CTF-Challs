@@ -2,6 +2,7 @@
 
 |Category|Name|Website|
 |---|---|---|
+|Web|[Lucky Redirect](/Daily%20AlpacaHack/Lucky%20Redirect)|[Link](https://alpacahack.com/daily/challenges/lucky-redirect)|
 |Web|[Tar Uploader](/Daily%20AlpacaHack/Tar%20Uploader)|[Link](https://alpacahack.com/daily/challenges/tar-uploader)|
 |Misc|[Dot Chain](/Daily%20AlpacaHack/Dot%20Chain)|[Link](https://alpacahack.com/daily/challenges/dot-chain)|
 |Web|[What's Next](/Daily%20AlpacaHack/What's%20Next)|[Link](https://alpacahack.com/daily/challenges/whats-next)|
