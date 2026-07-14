@@ -1,0 +1,10 @@
+services:
+  web:
+    build:
+      context: ./web
+    restart: unless-stopped
+    init: true
+    environment:
+      - FLAG=Alpaca{ke3p_the_Secret_t0_yours3lf}
+    ports:
+      - ${PORT:-3000}:3000

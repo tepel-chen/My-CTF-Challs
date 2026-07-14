@@ -11,6 +11,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[IP Blocked Secret](/Daily%20AlpacaHack/IP%20Blocked%20Secret)|★|
 |Daily AlpacaHack|[Lucky Redirect](/Daily%20AlpacaHack/Lucky%20Redirect)|★|
 |Daily AlpacaHack|[Nano Services](/Daily%20AlpacaHack/Nano%20Services)|★|
 |Daily AlpacaHack B-Side|[InstaTalk](/Daily%20AlpacaHack/InstaTalk)|★★★|
