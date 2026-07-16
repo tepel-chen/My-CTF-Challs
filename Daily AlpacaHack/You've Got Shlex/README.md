@@ -73,7 +73,7 @@ Alpaca{the_most_nonsensical_use_of_shlex_in_pyjail}
 
 ## Discussion
 
-In a Python sandbox, preventing access to dunder attributes is one of the most effective ways to secure the environment. Therefore, any module that exposes access to `sys` can be a major security vulnerability.
+In a Python sandbox, preventing access to dunder attributes is one of the most effective ways to secure the environment, and many sandboxes rely on this restriction. Therefore, any module that exposes access to `sys` can be a major security vulnerability.
 
 For example, in `RestrictedPython`, allowing `shlex` along with `_getitem_` allows RCE:
 
