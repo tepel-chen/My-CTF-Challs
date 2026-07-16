@@ -2,6 +2,7 @@
 
 |Category|Name|Website|
 |---|---|---|
+|Misc|[You've Got Shlex](/Daily%20AlpacaHack/You%27ve%20Got%20Shlex)|[Link](https://alpacahack.com/daily/challenges/youve-got-shlex)|
 |Web|[IP Blocked Secret](/Daily%20AlpacaHack/IP%20Blocked%20Secret)|[Link](https://alpacahack.com/daily/challenges/ip-blocked-secret)|
 |Web|[Nano Services](/Daily%20AlpacaHack/Nano%20Services)|[Link](https://alpacahack.com/daily/challenges/nano-services)|
 |Web|[Lucky Redirect](/Daily%20AlpacaHack/Lucky%20Redirect)|[Link](https://alpacahack.com/daily/challenges/lucky-redirect)|

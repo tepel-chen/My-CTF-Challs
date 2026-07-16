@@ -1,0 +1,6 @@
+services:
+  challenge:
+    build: .
+    restart: unless-stopped
+    ports:
+      - ${PORT:-1337}:1337

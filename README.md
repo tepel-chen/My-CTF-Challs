@@ -56,6 +56,7 @@
 
 |CTF|Name|Difficulty|
 |---|---|---|
+|Daily AlpacaHack|[You've Got Shlex](/Daily%20AlpacaHack/You%27ve%20Got%20Shlex)|★|
 |Daily AlpacaHack B-Side|[YAuth](/Daily%20AlpacaHack/YAuth)|★★|
 |Daily AlpacaHack|[Dot Chain](/Daily%20AlpacaHack/Dot%20Chain)|★|
 |Infobahn CTF 2025|[very safe pickle](/Infobahn%20CTF%202025/very%20safe%20pickle)|★★★|
